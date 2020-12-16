@@ -14,42 +14,55 @@
 // console.log(Math.PI);
 // console.log(Math.E);//exponental
 
+
+
 // let N = new Number(4000);
 
-// console.log(typeof N);
 // console.log(N);
 // console.log(N.toFixed(2));
+// console.log(N.toExponential());
 
-//console.log(Math.PI.toFixed(4));
 
 // let n = 5000;
+
 // console.log(typeof n);
-
-// console.log(n.toFixed(2));
-// console.log(n.toExponential(3));
+// console.log(n.toFixed(2));  
 // console.log(n.toExponential());
-
-// console.log(n.toPrecision(10));
-
-
-//------------Operators-----------
+// console.log(n.toPrecision(3));
 
 
-
-
-console.log(+10);
-console.log(-10);
-
-
-let x = 10;
-
-// console.log(++x);
-// console.log(x++);
-
-
-console.log('-------------');
 console.log(5 + 10);
 console.log(5 - 10);
 console.log(5 * 10);
 console.log(10 / 3);
 console.log(10 % 3);
+
+console.log('------------------------');
+let x = 10;
+
+// console.log(x = x + 2);
+// console.log(x = x - 2);
+// console.log(x = x * 2);
+// console.log(x = x / 2);
+// console.log(x = x %  2);
+
+
+// console.log(x += 2);
+// console.log(x -= 2);
+// console.log(x *= 2);
+// console.log(x /= 2);
+// console.log(x %= 2);
+
+// console.log(5 > 10);
+// console.log(5 < 10);
+// console.log(5 >= 10);
+// console.log(5 <= 5);
+
+
+console.log(10 == '10');
+console.log(10 === '10');
+
+console.log('---------');
+
+console.log(10 != '10');
+console.log(10 !== '10');
