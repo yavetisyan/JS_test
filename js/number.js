@@ -37,19 +37,22 @@
 
 
 
-console.log(+10);
-console.log(-10);
+// console.log(+10);
+// console.log(-10);
 
 
-let x = 10;
-
+//let x = 10;
 // console.log(++x);
 // console.log(x++);
 
 
 console.log('-------------');
-console.log(5 + 10);
-console.log(5 - 10);
-console.log(5 * 10);
-console.log(10 / 3);
-console.log(10 % 3);
+// console.log(5 + 10);
+// console.log(5 - 10);
+// console.log(5 * 10);
+// console.log(10 / 3);
+// console.log(10 % 3);
+
+
+console.log(NaN === NaN);
+console.log(NaN == NaN);
