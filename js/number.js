@@ -47,35 +47,33 @@ let x = 10;
 // console.log(x = x %  2);
 
 
-<<<<<<< HEAD
+
 // console.log(+10);
 // console.log(-10);
-=======
+
 // console.log(x += 2);
 // console.log(x -= 2);
 // console.log(x *= 2);
 // console.log(x /= 2);
 // console.log(x %= 2);
->>>>>>> c0c198cbcdbcabee4410618a84391836b64f7928
 
 // console.log(5 > 10);
 // console.log(5 < 10);
 // console.log(5 >= 10);
 // console.log(5 <= 5);
 
-<<<<<<< HEAD
 //let x = 10;
 // console.log(++x);
 // console.log(x++);
-=======
+
 
 console.log(10 == '10');
 console.log(10 === '10');
->>>>>>> c0c198cbcdbcabee4410618a84391836b64f7928
+
 
 console.log('---------');
 
-<<<<<<< HEAD
+
 console.log('-------------');
 // console.log(5 + 10);
 // console.log(5 - 10);
@@ -86,7 +84,6 @@ console.log('-------------');
 
 console.log(NaN === NaN);
 console.log(NaN == NaN);
-=======
+
 console.log(10 != '10');
 console.log(10 !== '10');
->>>>>>> c0c198cbcdbcabee4410618a84391836b64f7928

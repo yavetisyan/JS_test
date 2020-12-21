@@ -63,3 +63,51 @@
 // if ('5' && 7) {
 //    console.log('ok');
 // }
+
+// let x = 10;
+// let y = 11;
+// console.log(x != y);
+
+// console.log(!Boolean(x));
+
+// console.log(typeof (23 + '')); //string
+
+// console.log(typeof (+'5')); //number
+// console.log(+'asas'); // NaN
+
+// console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(null));
+// console.log(Boolean(NaN));
+// console.log(Boolean(undefined));
+
+// console.log(!!'');
+// console.log(!!0);
+// console.log(!!null);
+// console.log(!!NaN);
+// console.log(!!undefined);
+
+// console.log(+true); //1
+// console.log(+false); //0
+
+// console.log('0' == false);
+// console.log(0 == false);
+// console.log(null == false); //false
+// console.log(undefined == false); //false
+
+//console.log(Boolean(null));
+
+//console.log(typeof ('8' * '9')); //numbre
+
+// let x = 2;
+
+// x.toString();
+// console.log(x.toString()); //string
+
+// //console.log(10. toString()); //error
+// console.log(false.toString()); //string
+// console.log(NaN.toString()); //string
+
+// console.log(null.toString()); // error
+// console.log(undefined.toString()); // error
+
