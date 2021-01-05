@@ -111,3 +111,13 @@
 // console.log(null.toString()); // error
 // console.log(undefined.toString()); // error
 
+let x = '123';
+let y = '123.12';
+
+// console.log(parseInt(x));  //number 123
+// console.log(typeof (x * 1)); //number
+// console.log('f' * 1);//NaN
+
+console.log(parseFloat(y));
+console.log(parseInt("45 px")); //45
+console.log(parseInt('    g 45 px'));//NaN
