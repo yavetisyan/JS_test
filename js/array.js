@@ -28,7 +28,7 @@
 // console.log(Array.isArray(text));
 // console.log(Array.isArray(array));
 
-let array = ['inchv or tox', 'aysor', 'lorem ipsum', 'mekel urish tox'];
+//let array = ['inchv or tox', 'aysor', 'lorem ipsum', 'mekel urish tox'];
 
 // console.log(array);
 // console.log(array.join(' | '));
@@ -41,3 +41,23 @@ let array = ['inchv or tox', 'aysor', 'lorem ipsum', 'mekel urish tox'];
 // console.log(array);
 // delete array[3];
 // console.log(array);
+// array.push('verjum'); //avelacnuma zangavi verjum
+// console.log(array);
+// array.pop() //jnjum e zangvacic mejic vejin tarry
+// console.log(array);
+// array.unshift(34); //avelacnum e zangvaci skzbic
+// console.log(array);
+// array.shift();//zangvacic jnjum e arajin elementy
+// console.log(array);
+
+
+//array.concat('hello', ['mi ban', ' u eli mi ban']); //kcum e urish zangvaci het
+//console.log(array.concat('hello', ['mi ban', ' u eli mi ban']));
+
+
+let array = ['inchv or tox', 'aysor', 'lorem ipsum', 'mekel urish tox'];
+
+array.forEach(function (element, index, array) {
+    array[index] = element.toUpperCase();
+});
+console.log(array,' -->heto');
