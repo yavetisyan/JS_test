@@ -55,9 +55,80 @@
 //console.log(array.concat('hello', ['mi ban', ' u eli mi ban']));
 
 
-let array = ['inchv or tox', 'aysor', 'lorem ipsum', 'mekel urish tox'];
+//forEach
 
-array.forEach(function (element, index, array) {
-    array[index] = element.toUpperCase();
-});
-console.log(array,' -->heto');
+// let array = ['inchv or tox', 'aysor', 'lorem ipsum', 'mekel urish tox'];
+
+// array.forEach(function (element, index, array) {
+//     array[index] = element.toUpperCase();
+// });
+// console.log(array, ' -->heto');
+
+
+
+// let array = ['inchv or tox', 'eli text', 'aysor', 'lorem ipsum', 'mekel urish text', 'e', 'JS'];
+
+//array.map
+
+// let met = array.map(function (e) {
+//     return e.toUpperCase(); 
+// });
+
+// console.log(met);
+
+//filter
+
+// let filtered = array.filter(function (e) {
+//     return e.indexOf('o') === -1;
+// });
+
+// console.log(filtered);
+
+
+// console.log(array.every(function (e) {
+//     return e.length > 4;
+// }));
+
+// console.log(array.some(function (e) {
+//     return e.length > 4;
+// }));
+
+
+//-----------
+
+
+let array = ['inchv or tox', 'eli text', 'aysor', 'lorem ipsum', 'mekel urish text', 'e', 'JS'];
+
+let numbers = [1, 2, 3, 4, 5, 6];
+
+// let num = numbers.reduce(function (a, b, index, arr) {
+//     //taqun arjeq
+
+//     return a + b;
+// });
+
+
+// let xxx = array.find();
+// let xxx = array.find();
+
+console.log(array.fill('ki', 1, 3));
+
+
+
+
+
+//console.log(num);
+
+
+// let inch = array.keys();;
+// for (x of inch) {
+//     console.log(x);
+// }   //ashxatum a zangvacneri het
+
+// let inch = array.entries();
+
+// for (x of inch) {
+//     console.log(x);
+// }
+
+
